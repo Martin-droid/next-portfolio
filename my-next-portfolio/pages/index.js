@@ -71,7 +71,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-		I am a Passionate Software Developer Based in Nairobi Kenya. I am currently a Systems Developer working for a remote company in Kenya. I am The Founder of Ivy Tree Technologies, A Tech Startup and Academy that Mentors Young Tech Enthusiasts.
+		I am a Passionate Software Developer Based in Nairobi, Kenya. I am currently a Systems Developer working for a remote company in Kenya. I am The Founder of Ivy Tree Technologies, A Tech Startup and Academy that Mentors Young Tech Enthusiasts.
         </Paragraph>
 
 
