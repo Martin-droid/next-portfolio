@@ -41,7 +41,7 @@ const Home = () => (
           <p>Software Developer, Mentor and Trainer</p>
 		  <List ml={4} my={4}>
 		  <ListItem>
-			  <a href="MartinNdegwaResume.pdf">
+			  <a href="Martin_NdegwaResume.pdf">
           <Meta>View Resume</Meta>
 </a>
         </ListItem>
