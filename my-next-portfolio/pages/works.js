@@ -16,10 +16,35 @@ import thumbFreeDBTagger from '../public/images/works/linked.png'
 const Works = () => (
   <Layout title="Works">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
+     
+      <Section delay={0.2}>
+        <Divider my={6} />
+
+        <Heading as="h3" fontSize={20} mb={4}>
+        Commercial Projects
+        </Heading>
+      </Section>
+
+      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section delay={0.3}>
+          <WorkGridItem
+            id="loan"
+            thumbnail={thumbModeTokyo}
+            title="Loan App"
+          >
+           A FullStack Laravel Loan Application.
+          </WorkGridItem>
+        </Section>
+        <Section delay={0.3}>
+          <WorkGridItem id="property" thumbnail={thumbStyly} title="Property Management System">
+            A Property Management System custom tailored for a Property Manager.
+          </WorkGridItem>
+        </Section>
+      </SimpleGrid>
+
+ <Heading as="h3" fontSize={20} mb={4}>
         Works
       </Heading>
-
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="crypto" title="Crypto App" thumbnail={thumbInkdrop}>
@@ -48,31 +73,6 @@ A React-Alan AI News Project.
         <Section delay={0.1}>
           <WorkGridItem id="zoom" thumbnail={thumbMenkiki} title="Zoom App">
            My Own version of The Zoom Application.
-          </WorkGridItem>
-        </Section>
-      </SimpleGrid>
-
-      <Section delay={0.2}>
-        <Divider my={6} />
-
-        <Heading as="h3" fontSize={20} mb={4}>
-        Commercial Projects
-        </Heading>
-      </Section>
-
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section delay={0.3}>
-          <WorkGridItem
-            id="loan"
-            thumbnail={thumbModeTokyo}
-            title="Loan App"
-          >
-           A FullStack Laravel Loan Application.
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.3}>
-          <WorkGridItem id="property" thumbnail={thumbStyly} title="Property Management System">
-            A Property Management System custom tailored for a Property Manager.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
