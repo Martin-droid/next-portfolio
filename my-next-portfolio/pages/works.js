@@ -10,6 +10,7 @@ import thumbMenkiki from '../public/images/works/zoom.png'
 import thumbModeTokyo from '../public/images/works/loan.png'
 import thumbStyly from '../public/images/works/property.png'
 import thumbPichu2 from '../public/images/works/uber.jpg'
+import thumbPichu3 from '../public/images/works/11.png'
 import thumbFreeDBTagger from '../public/images/works/linked.png'
 
 
